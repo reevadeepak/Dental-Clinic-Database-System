@@ -42,10 +42,13 @@ Relational division (double NOT EXISTS) to find patients who underwent multiple 
 🛠️ Tools Used
 
 MySQL Workbench
+
 SQL (DDL, DML, joins, subqueries, aggregation, set operations)
+
 ER modelling tools
 
 👥 Authors
 
 Reeva Josephine Deepak (M01036971)
+
 Mutsawashe Audrey Mandinde (M01033270)
