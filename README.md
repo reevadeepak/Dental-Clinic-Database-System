@@ -1,71 +1,71 @@
 # Totally Toothy Dental Clinic — Database Systems Design & Implementation
 
-A full relational database design and implementation project for Totally Toothy Dental Clinic, built as coursework for CST2340 – Database Systems: Design and Implication at Middlesex University London.
+A comprehensive relational database design and implementation project developed for **CST2340 – Database Systems: Design and Implication** at **Middlesex University London**.
 
-📋 Overview
+## 📋 Project Overview
 
-This project covers the complete database development lifecycle for a dental clinic management system — from conceptual modelling through to a working MySQL implementation with complex analytical queries.
+This project involved the end-to-end design and implementation of a **dental clinic management database**, covering the full database development lifecycle — from requirements analysis and conceptual modelling to relational implementation and advanced SQL querying.
 
-🗂️ Project Structure
+The system was designed to support the management of patients, doctors, treatments, appointments, treatment plans, allergies, rooms, and invoices while maintaining data integrity, consistency, and efficient information retrieval.
 
-Part A – Database Design
+## 🗂️ Project Structure
 
-Case study analysis of clinic operations (patients, doctors, treatments, appointments, invoicing, and long-term treatment plans)
+### Part A — Database Design
 
-Entity-Relationship Diagram (ERD) modelling all core entities and relationships
+* Analysed the Totally Toothy Dental Clinic case study and identified key business requirements and data relationships.
+* Designed an **Entity-Relationship Diagram (ERD)** representing the clinic's core entities and relationships.
+* Validated the conceptual model and identified and resolved a **chasm trap** between `TREATMENT PLAN` and `APPOINTMENT`.
+* Evaluated the strengths and limitations of the relational database model.
+* Compared relational databases with **NoSQL database types**, including document, key-value, column-family, and graph databases, and explored their potential applications in healthcare.
+* Examined professional, legal, and ethical considerations surrounding healthcare databases, including **GDPR, data privacy, security, informed consent, data integrity, and access control**.
 
-Model validation, including identification and resolution of a chasm trap between TREATMENT PLAN and APPOINTMENT
+### Part B — Database Implementation
 
-Critical evaluation of the relational model's strengths and limitations
+* Transformed the conceptual model into a **normalised relational database structure**.
+* Defined appropriate data types, primary keys, foreign keys, and integrity constraints for each attribute.
+* Implemented the database in **MySQL Workbench** using SQL DDL and DML.
+* Created and populated **9 interconnected tables**:
 
-Comparison with NoSQL database types (document, key-value, column-family, graph) and how each could apply to clinic operations
+  * `Patient`
+  * `Doctor`
+  * `Treatment`
+  * `Room`
+  * `Allergy`
+  * `Patient_Allergy`
+  * `TreatmentPlan`
+  * `Appointment`
+  * `Invoice`
+* Populated the database with realistic sample data to demonstrate its functionality and support meaningful analysis.
 
-Discussion of professional, legal, and ethical issues in healthcare database management (GDPR, data privacy, security, informed consent, data integrity, and access control)
+### Part C — SQL Query Development
 
-Part B – Database Implementation
+Developed **10 advanced SQL queries** demonstrating a range of database techniques:
 
-Conversion of the relational model into normalised tables with defined data types and constraints
+1. **Multi-table JOINs** to generate comprehensive billing and appointment reports.
+2. **Filtered JOINs** for location-based patient analysis.
+3. **Subqueries** comparing booked treatment sessions with required sessions.
+4. **Self-JOINs** to identify patients assigned to the same doctor.
+5. **Aggregation and GROUP BY** to analyse treatment demand and revenue.
+6. **UNION operations** to create a combined patient and doctor contact directory.
+7. **Parameterised queries** for retrieving individual patient appointment histories.
+8. **Nested EXISTS queries** for financial and clinical condition checks.
+9. **Correlated subqueries** to compare individual doctor workloads against role averages.
+10. **Relational division using double NOT EXISTS** to identify patients who received multiple specified treatments.
 
-Justification of datatype choices for every attribute
+## 🛠️ Technologies & Tools
 
-Full implementation in MySQL Workbench, including CREATE TABLE statements with primary/foreign key constraints across 9 tables:
- Patient, Doctor, Treatment, Room, Allergy, Patient_Allergy, TreatmentPlan, Appointment, Invoice
+* **MySQL Workbench**
+* **SQL**
+* DDL & DML
+* ER Modelling
+* Relational Database Design
+* Normalisation
+* JOINs & Subqueries
+* Aggregation & Set Operations
+* Database Constraints
 
-Populated with realistic sample data (10+ records per table)
+## 👥 Authors
 
-Part C – SQL Queries
- A set of 10 SQL queries demonstrating a range of techniques:
+**Reeva Josephine Deepak** — M01036971
+**Mutsawashe Audrey Mandinde** — M01033270
 
-Multi-table JOIN for a complete billing/appointment report
-
-Filtered joins for location-based patient analysis
-
-Subqueries comparing booked vs. required treatment sessions
-
-Self-joins to identify patients sharing the same doctor
-
-Aggregation (COUNT/SUM/GROUP BY/HAVING) for treatment demand and revenue
-
-UNION queries to build a combined patient/doctor contact directory
-
-Parameterised lookup queries for patient appointment history
-
-Nested EXISTS queries for financial/clinical condition checks
-
-Correlated subqueries comparing doctor workload against role averages
-
-Relational division (double NOT EXISTS) to find patients who underwent multiple specific treatments
-
-🛠️ Tools Used
-
-MySQL Workbench
-
-SQL (DDL, DML, joins, subqueries, aggregation, set operations)
-
-ER modelling tools
-
-👥 Authors
-
-Reeva Josephine Deepak (M01036971)
-
-Mutsawashe Audrey Mandinde (M01033270)
