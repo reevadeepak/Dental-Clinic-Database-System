@@ -46,6 +46,5 @@ MySQL Workbench, SQL (DDL, DML, joins, subqueries, aggregation, set operations),
 
 
 👥 Authors
-
-Reeva Josephine Deepak (M01036971), 
+Reeva Josephine Deepak (M01036971)
 Mutsawashe Audrey Mandinde (M01033270)
