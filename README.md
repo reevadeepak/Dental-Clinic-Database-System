@@ -1,4 +1,4 @@
-Totally Toothy Dental Clinic — Database Systems Design & Implementation
+# Totally Toothy Dental Clinic — Database Systems Design & Implementation
 
 A full relational database design and implementation project for Totally Toothy Dental Clinic, built as coursework for CST2340 – Database Systems: Design and Implication at Middlesex University London.
 
