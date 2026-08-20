@@ -39,18 +39,31 @@ The system was designed to support the management of patients, doctors, treatmen
 
 ### Part C — SQL Query Development
 
-Developed **10 advanced SQL queries** demonstrating a range of database techniques:
+The SQL component consisted of **10 queries**, with the following queries completed by **Reeva Josephine Deepak**:
 
-1. **Multi-table JOINs** to generate comprehensive billing and appointment reports.
-2. **Filtered JOINs** for location-based patient analysis.
-3. **Subqueries** comparing booked treatment sessions with required sessions.
-4. **Self-JOINs** to identify patients assigned to the same doctor.
-5. **Aggregation and GROUP BY** to analyse treatment demand and revenue.
-6. **UNION operations** to create a combined patient and doctor contact directory.
-7. **Parameterised queries** for retrieving individual patient appointment histories.
-8. **Nested EXISTS queries** for financial and clinical condition checks.
-9. **Correlated subqueries** to compare individual doctor workloads against role averages.
-10. **Relational division using double NOT EXISTS** to identify patients who received multiple specified treatments.
+#### C1 — Reeva Josephine Deepak
+
+**Multi-table JOIN** to generate a comprehensive billing and appointment report.
+
+#### C3 — Reeva Josephine Deepak
+
+**Subqueries** comparing booked treatment sessions with required treatment sessions.
+
+#### C5 — Reeva Josephine Deepak
+
+**Aggregation using COUNT, SUM, GROUP BY, and HAVING** to analyse treatment demand and revenue.
+
+#### C7 — Reeva Josephine Deepak
+
+**Parameterised lookup query** for retrieving a patient's appointment history.
+
+#### C8 — Reeva Josephine Deepak
+
+**Nested EXISTS queries** to identify patients with treatment plans and pending invoices.
+
+#### C9 — Reeva Josephine Deepak
+
+**Correlated subqueries** comparing individual doctor workloads against average workloads for their respective roles.
 
 ## 🛠️ Technologies & Tools
 
@@ -66,6 +79,7 @@ Developed **10 advanced SQL queries** demonstrating a range of database techniqu
 
 ## 👥 Authors
 
-**Reeva Josephine Deepak** ,
-**Mutsawashe Audrey Mandinde** 
+**Reeva Josephine Deepak**,
+**Mutsawashe Audrey Mandinde**
+
 
