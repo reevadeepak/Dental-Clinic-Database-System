@@ -79,7 +79,7 @@ The SQL component consisted of **10 queries**, with the following queries comple
 
 ## 👥 Authors
 
-**Reeva Josephine Deepak**,
+**Reeva Josephine Deepak**
 **Mutsawashe Audrey Mandinde**
 
 
