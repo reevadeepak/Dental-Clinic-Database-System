@@ -38,10 +38,14 @@ Parameterised lookup queries for patient appointment history
 Nested EXISTS queries for financial/clinical condition checks
 Correlated subqueries comparing doctor workload against role averages
 Relational division (double NOT EXISTS) to find patients who underwent multiple specific treatments
+
 🛠️ Tools Used
+
 MySQL Workbench
 SQL (DDL, DML, joins, subqueries, aggregation, set operations)
 ER modelling tools
+
 👥 Authors
+
 Reeva Josephine Deepak (M01036971)
 Mutsawashe Audrey Mandinde (M01033270)
