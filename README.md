@@ -66,6 +66,6 @@ Developed **10 advanced SQL queries** demonstrating a range of database techniqu
 
 ## 👥 Authors
 
-**Reeva Josephine Deepak** — M01036971
-**Mutsawashe Audrey Mandinde** — M01033270
+**Reeva Josephine Deepak** ,
+**Mutsawashe Audrey Mandinde** 
 
